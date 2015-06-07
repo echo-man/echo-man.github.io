@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    title Better Answers
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width", initial-scale=1)
+    link(rel="stylesheet", type="text/css", href="css/foundation.css")
+    link(rel="stylesheet", type="text/css", href="foundation-icons/foundation-icons.css")
+    link(rel="stylesheet", type="text/css", href="css/mystyle.css")
+
+  body
+    .row
+      .column.small-4
+        h2 Better Answers
+
+      .column.small-8
+        ul.inline-list.right.top-actions
+          li: a.fi-mail(href="")  Newsletter
+          li: a.fi-rss(href="")  RSS
+          li |
+          li: form.row.collapse.postfix-radius
+            .column.small-4: label Subscribe
+            .column.small-6: input(type="text", placeholder="E-mail") 
+            .column.small-2: a.button.postfix(href="") Go
+
+    .row
+      .column.small-12
+        dl.sub-nav.nav-ruled
+          dd.active: a(href="") Home
+          dd: a(href="") Write
+          dd: a(href="") Notifications
+          dd: a(href="") Contact
+
+    .row
+      .column.small-12.medium-7.large-5
+        include includes/contentcol-1
+
+      .column.small-12.medium-5.large-4.ruled
+        include includes/contentcol-2
+
+      .column.small-12.large-3
+        include includes/contentcol-3
+
+  footer
+    .row
+      .column.small-12: hr(style="border-width: 6px 0 0")

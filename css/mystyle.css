@@ -1,0 +1,38 @@
+.top-actions {
+  margin-top: 10px;
+  margin-bottom: -20px; }
+
+.sub-nav {
+  background-color: #f2f2f2;
+  padding: 0.8em; }
+
+.crimson-box {
+  background: #000000;
+  border-radius: 0px;
+  color: white;
+  display: inline-block;
+  padding: 3px 0.5em; }
+
+.muted {
+  color: #000000; }
+
+.full-bleed {
+  margin: 0 -0.9375rem; }
+
+.tint-box {
+  background: #f2f2f2;
+  padding: 0.9375rem;
+  margin-bottom: 0.9375rem; }
+
+.ruled {
+  border: solid #ccc;
+  border-width: 0 1px 0 1px; }
+
+.nav-ruled {
+  border: solid #ccc;
+  border-width: 1px 0 1px 0; }
+
+h5 {
+  color: #FA1B1B; }
+
+/*# sourceMappingURL=mystyle.css.map */
