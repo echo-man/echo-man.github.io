@@ -1,2 +1,2 @@
 # echo-man.github.io
-website with js
+Portfolio and stuffs.
