@@ -227,8 +227,9 @@ a:hover {
 }
 
 .tags {
-    font-size: 0.7em;
-    font-style: italic;
+    font-size: 0.8em;
+    font-style: bold;
+    color:black;
 }
 
 .tag {
@@ -236,13 +237,14 @@ a:hover {
     display: block;
     margin: 0 0.2em 0.2em 0;
     padding: 0.4em;
-    background: rgba(0,0,0,0.1);
+    background: #BFBFBD;
     /* Border Radius */
         -webkit-border-radius: 4px;
         -moz-border-radius: 4px;
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
         border-radius: 4px;
+    border-color: #030303
 }
 
 .project img {
